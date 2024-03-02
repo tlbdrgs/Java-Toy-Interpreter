@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" spacing="10" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.SelectProgramController">
+    <Label style="-fx-font-size: 16px;" text="Select a program">
+      <padding>
+         <Insets top="5.0" />
+      </padding></Label>
+    <ListView fx:id="allPrograms" onMouseClicked="#handleSelectStmt" VBox.vgrow="ALWAYS">
+    </ListView>
+</VBox>
